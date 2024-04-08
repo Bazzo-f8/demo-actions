@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: node main.js
-
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
